@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "album",
+            "otherEntityName": "album",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "songTitle",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170205045329",
+    "entityTableName": "song",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

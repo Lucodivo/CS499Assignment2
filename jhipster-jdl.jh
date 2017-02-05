@@ -1,0 +1,22 @@
+entity Artist {
+	aristName String
+    founded Integer
+    location String
+}
+
+entity Album {
+    albumTitle String
+	year Integer
+}
+
+entity Song {
+	songTitle String
+}
+
+relationship OneToMany {
+	Artist{albums} to Album
+}
+
+relationship OneToMany {
+	Album{songs} to Song
+}

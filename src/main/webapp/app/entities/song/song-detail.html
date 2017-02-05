@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span>Song</span> {{vm.song.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row jh-entity-details">
+        <dt><span>Song Title</span></dt>
+        <dd>
+            <span>{{vm.song.songTitle}}</span>
+        </dd>
+        <dt><span>Album</span></dt>
+        <dd>
+            <a ui-sref="album-detail({id:vm.song.album.id})">{{vm.song.album.id}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button" ui-sref="song-detail.edit({id:vm.song.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down"> Edit</span>
+    </button>
+</div>

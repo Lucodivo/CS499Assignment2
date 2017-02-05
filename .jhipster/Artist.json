@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "albums",
+            "otherEntityName": "album",
+            "otherEntityRelationshipName": "artist"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "aristName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "founded",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "location",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170205045329",
+    "entityTableName": "artist",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}
