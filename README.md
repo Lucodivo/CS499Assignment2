@@ -3,12 +3,17 @@
 This application contains entities and relationships of bands and their music.
 
 -- Entities --
+
 Artist - Some music productions person(s) 
+
 Album - Some collection of songs created by an artist
+
 Song - Some song written by an artist that exists on some album
 
 -- Relationships -- 
+
 One Artist to Many Albums
+
 One Album to Many Songs
 
 This application was generated using JHipster 4.0.1, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.0.1](https://jhipster.github.io/documentation-archive/v4.0.1).
