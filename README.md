@@ -2,12 +2,12 @@
 
 This application contains entities and relationships of bands and their music.
 
-:: Entities ::
+-- Entities --
 Artist - Some music productions person(s) 
 Album - Some collection of songs created by an artist
 Song - Some song written by an artist that exists on some album
 
-:: Relationships :: 
+-- Relationships -- 
 One Artist to Many Albums
 One Album to Many Songs
 
